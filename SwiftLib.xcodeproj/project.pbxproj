@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91A4B690286F1704001BAFFB /* SwiftLib.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 91A4B68F286F1704001BAFFB /* SwiftLib.podspec */; };
 		91EB86B3286EFD71005A304A /* SwiftLib.docc in Sources */ = {isa = PBXBuildFile; fileRef = 91EB86B2286EFD71005A304A /* SwiftLib.docc */; };
 		91EB86B9286EFD71005A304A /* SwiftLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EB86AE286EFD71005A304A /* SwiftLib.framework */; };
 		91EB86BE286EFD71005A304A /* SwiftLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB86BD286EFD71005A304A /* SwiftLibTests.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91A4B68F286F1704001BAFFB /* SwiftLib.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwiftLib.podspec; sourceTree = "<group>"; };
 		91EB86AE286EFD71005A304A /* SwiftLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91EB86B1286EFD71005A304A /* SwiftLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftLib.h; sourceTree = "<group>"; };
 		91EB86B2286EFD71005A304A /* SwiftLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftLib.docc; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 		91EB86A4286EFD71005A304A = {
 			isa = PBXGroup;
 			children = (
+				91A4B68F286F1704001BAFFB /* SwiftLib.podspec */,
 				91EB86B0286EFD71005A304A /* SwiftLib */,
 				91EB86BC286EFD71005A304A /* SwiftLibTests */,
 				91EB86CD286EFEF1005A304A /* SwiftyLibExamples */,
@@ -238,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91A4B690286F1704001BAFFB /* SwiftLib.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
