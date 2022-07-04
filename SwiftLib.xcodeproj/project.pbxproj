@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9110D40C2872C6D100DCD183 /* SwiftLib.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9110D40B2872C6D100DCD183 /* SwiftLib.podspec */; };
+		9110D4102872E12300DCD183 /* SwiftLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9110D40F2872E12300DCD183 /* SwiftLib.framework */; platformFilter = ios; };
 		91EB86B3286EFD71005A304A /* SwiftLib.docc in Sources */ = {isa = PBXBuildFile; fileRef = 91EB86B2286EFD71005A304A /* SwiftLib.docc */; };
 		91EB86B9286EFD71005A304A /* SwiftLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EB86AE286EFD71005A304A /* SwiftLib.framework */; };
 		91EB86BE286EFD71005A304A /* SwiftLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB86BD286EFD71005A304A /* SwiftLibTests.swift */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		9110D40B2872C6D100DCD183 /* SwiftLib.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwiftLib.podspec; sourceTree = "<group>"; };
+		9110D40F2872E12300DCD183 /* SwiftLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftLib.framework; sourceTree = "<group>"; };
 		91EB86AE286EFD71005A304A /* SwiftLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91EB86B1286EFD71005A304A /* SwiftLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftLib.h; sourceTree = "<group>"; };
 		91EB86B2286EFD71005A304A /* SwiftLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftLib.docc; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9110D4102872E12300DCD183 /* SwiftLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		9110D40E2872DCC300DCD183 /* 0.0.6 */ = {
 			isa = PBXGroup;
 			children = (
+				9110D40F2872E12300DCD183 /* SwiftLib.framework */,
 			);
 			path = 0.0.6;
 			sourceTree = "<group>";
@@ -447,6 +451,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/distributions/0.0.6",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -476,6 +484,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/distributions/0.0.6",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
