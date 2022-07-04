@@ -20,6 +20,6 @@ public final class SwiftLib {
     }
     
     public func getVersion() -> String {
-        return "master"
+        return "0.0.6"
     }
 }
