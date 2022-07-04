@@ -70,9 +70,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9110D40D2872DCBB00DCD183 /* distributions */ = {
+			isa = PBXGroup;
+			children = (
+				9110D40E2872DCC300DCD183 /* 0.0.6 */,
+			);
+			path = distributions;
+			sourceTree = "<group>";
+		};
+		9110D40E2872DCC300DCD183 /* 0.0.6 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 0.0.6;
+			sourceTree = "<group>";
+		};
 		91EB86A4286EFD71005A304A = {
 			isa = PBXGroup;
 			children = (
+				9110D40D2872DCBB00DCD183 /* distributions */,
 				9110D40B2872C6D100DCD183 /* SwiftLib.podspec */,
 				91EB86B0286EFD71005A304A /* SwiftLib */,
 				91EB86BC286EFD71005A304A /* SwiftLibTests */,
