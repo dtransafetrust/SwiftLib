@@ -14,8 +14,10 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "14.0"
   spec.swift_version = "5.0"
 
-  spec.source        = { :git => "https://github.com/dtransafetrust/SwiftLib.git", :tag => "#{spec.version}" }
+  # spec.source        = { :git => "https://github.com/dtransafetrust/SwiftLib.git", :tag => "#{spec.version}" }
   
-  spec.vendored_frameworks = "distributions/#{spec.version}/SwiftLib.framework"
+  # spec.vendored_frameworks = "distributions/#{spec.version}/SwiftLib.framework"
+  s.source           = { :http => "https://github.com/dtransafetrust/SwiftLib/tree/#{spec.version}/distributions/#{spec.version}/SwiftLib.framework.zip" }
 
 end
+
