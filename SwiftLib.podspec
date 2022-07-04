@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SwiftLib"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "A CocoaPods library written in Swift"
 
   spec.description  = "This CocoaPods library helps you perform calculation."

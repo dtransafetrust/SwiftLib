@@ -19,4 +19,7 @@ public final class SwiftLib {
         return a - b
     }
     
+    public func getVersion() -> String {
+        return "0.0.5"
+    }
 }
