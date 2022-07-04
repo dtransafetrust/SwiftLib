@@ -16,6 +16,6 @@ Pod::Spec.new do |spec|
 
   spec.source        = { :git => "https://github.com/", :tag => "#{spec.version}" }
   
-  s.vendored_frameworks = 'distributions/0.0.7/SwiftLib.framework'
+  spec.vendored_frameworks = "distributions/#{spec.version}/SwiftLib.framework"
 
 end
