@@ -15,7 +15,6 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5.0"
 
   spec.source        = { :git => "https://github.com/", :tag => "#{spec.version}" }
-  spec.source_files  = "SwiftLib/**/*.{h,m,swift}"
   
   s.vendored_frameworks = 'distributions/#{spec.version}/SwiftLib.framework'
 
