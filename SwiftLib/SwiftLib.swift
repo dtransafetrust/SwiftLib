@@ -11,6 +11,8 @@ public final class SwiftLib {
     
     let name = "SwiftLib"
     
+    public init() {}
+    
     public func add(a: Int, b: Int) -> Int {
         return a + b
     }
