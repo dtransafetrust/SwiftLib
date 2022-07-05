@@ -21,7 +21,11 @@ Pod::Spec.new do |s|
   # s.source           = { :http => "https://github.com/dtransafetrust/SwiftLib/blob/master/distributions/0.1.2/SwiftLib.framework.zip" }
   s.source           = { :http => "https://github.com/dtransafetrust/SwiftLib/SwiftLib.zip" }
   
-  s.vendored_frameworks = "SwiftLib.framework"
+  # s.vendored_frameworks = "SwiftLib.framework"
+
+  s.prepare_command = <<-CMD
+                        unzip SwiftLib.zip
+                   CMD
 
 end
 
