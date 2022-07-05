@@ -23,9 +23,7 @@ Pod::Spec.new do |s|
   
   # s.vendored_frameworks = "SwiftLib.framework"
 
-  s.prepare_command = <<-CMD
-                        unzip SwiftLib.zip
-                   CMD
+  s.prepare_command = "unzip SwiftLib.zip"
 
 end
 
