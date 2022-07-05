@@ -15,11 +15,11 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5.0"
 
   # spec.source        = { :git => "https://github.com", :tag => "#{spec.version}" }
-  spec.source_files = "*"
-  spec.preserve_path = "*"
+  # spec.source_files = "*"
+  # spec.preserve_path = "*"
   
   # spec.vendored_frameworks = "distributions/#{spec.version}/SwiftLib.framework"
-  spec.source           = { :http => "https://github.com/dtransafetrust/SwiftLib/blob/master/distributions/0.0.9/SwiftLib.framework.zip" }
+  spec.source           = { :http => "https://github.com/dtransafetrust/SwiftLib/blob/master/distributions/#{spec.version}/SwiftLib.framework.zip" }
 
   spec.vendored_frameworks = "SwiftLib.framework"
 
