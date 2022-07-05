@@ -5,14 +5,18 @@
 # Proprietary and confidential
 #
 
+VERSION="0.1.0"
+
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 git add .
 
 git commit -m "Update pod spec"
 
-git tag -fa 0.0.9
+git tag -fa $VERSION
 
-git push origin :0.0.9
+git push origin :$VERSION
 
-git push origin 0.0.9
+git push origin $VERSION
+
+git push origin master
