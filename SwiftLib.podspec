@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
   # spec.preserve_path = "*"
   
   # spec.vendored_frameworks = "distributions/#{spec.version}/SwiftLib.framework"
-  spec.source           = { :http => "https://github.com/dtransafetrust/SwiftLib/blob/master/distributions/#{spec.version}/SwiftLib.framework.zip" }
+  spec.source           = { :http => "https://github.com/dtransafetrust/SwiftLib/blob/master/distributions/0.1.0/SwiftLib.framework.zip" }
 
   spec.vendored_frameworks = "SwiftLib.framework"
 
