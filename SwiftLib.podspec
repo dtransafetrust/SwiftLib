@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   # spec.source        = { :git => "https://github.com", :tag => "#{spec.version}" }
   
   # spec.vendored_frameworks = "distributions/#{spec.version}/SwiftLib.framework"
-  spec.source           = { :http => "https://github.com/dtransafetrust/SwiftLib/tree/#{spec.version}/distributions/#{spec.version}/SwiftLib.framework.zip" }
+  spec.source           = { :http => "https://github.com/dtransafetrust/SwiftLib/blob/master/distributions/0.0.9/SwiftLib.framework.zip" }
 
   spec.vendored_frameworks = 'SwiftLib.framework'
 
