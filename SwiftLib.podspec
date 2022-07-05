@@ -1,27 +1,28 @@
 
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
 
-  spec.name         = "SwiftLib"
-  spec.version      = "0.1.1"
-  spec.summary      = "A CocoaPods library written in Swift"
+  s.name         = "SwiftLib"
+  s.version      = "0.1.1"
+  s.summary      = "A CocoaPods library written in Swift"
 
-  spec.description  = "This CocoaPods library helps you perform calculation."
+  s.description  = "This CocoaPods library helps you perform calculation."
 
-  spec.homepage     = "https://github.com/dtransafetrust/SwiftLib"
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
-  spec.author       = { "dtran" => "dtran@safetrust.com" }
+  s.homepage     = "https://github.com/dtransafetrust/SwiftLib"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.author       = { "dtran" => "dtran@safetrust.com" }
 
-  spec.ios.deployment_target = "14.0"
-  spec.swift_version = "5.0"
+  s.ios.deployment_target = "14.0"
+  s.swift_version = "5.0"
 
-  # spec.source        = { :git => "https://github.com", :tag => "#{spec.version}" }
-  # spec.source_files = "*"
-  # spec.preserve_path = "*"
+  # s.source        = { :git => "https://github.com", :tag => "#{s.version}" }
+  # s.source_files = "*"
+  # s.preserve_path = "*"
   
-  # spec.vendored_frameworks = "distributions/#{spec.version}/SwiftLib.framework"
-  spec.source           = { :http => "https://github.com/dtransafetrust/SwiftLib/blob/master/distributions/0.1.1/SwiftLib.framework.zip" }
+  # s.vendored_frameworks = "distributions/#{s.version}/SwiftLib.framework"
+  s.source_files  = "*"
+  s.source           = { :http => "https://github.com/dtransafetrust/SwiftLib/blob/master/distributions/0.1.1/SwiftLib.framework.zip" }
 
-  spec.vendored_frameworks = "SwiftLib.framework"
+  s.ios.vendored_frameworks = "SwiftLib.framework"
 
 end
 
