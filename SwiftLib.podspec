@@ -21,7 +21,6 @@ Pod::Spec.new do |s|
   # s.dependency 'OpenSSL-Universal'
 
   s.source        = { :git => "https://github.com/dtransafetrust/SwiftLib" }
-  # s.source_files = "distributions/#{s.version}/*.zip"
 
   s.vendored_frameworks = "distributions/#{s.version}/SwiftLib.zip"
 
