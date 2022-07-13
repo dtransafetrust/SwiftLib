@@ -17,9 +17,11 @@ Pod::Spec.new do |s|
   s.dependency 'SQLCipher', '~> 4.0'
   s.dependency 'Reachability', '~> 3.2'
   s.dependency 'SSZipArchive'
+  s.dependency 'sqlite3'
+  # s.dependency 'OpenSSL-Universal'
 
   s.source        = { :git => "https://github.com/dtransafetrust/SwiftLib" }
-  s.source_files = "distributions/#{s.version}/*.zip"
+  # s.source_files = "distributions/#{s.version}/*.zip"
 
   s.vendored_frameworks = "distributions/#{s.version}/SwiftLib.zip"
 
