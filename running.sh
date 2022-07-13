@@ -13,7 +13,7 @@ git add .
 
 git commit -m "Update pod spec"
 
-git tag -fa $VERSION "Fix bug"
+git tag -fa $VERSION
 
 git push origin :$VERSION
 
