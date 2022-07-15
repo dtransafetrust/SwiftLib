@@ -5,15 +5,15 @@
 # Proprietary and confidential
 #
 
-VERSION="0.1.3"
+VERSION="0.1.4"
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 git add .
 
-git commit -m "Update release notes"
+git commit -m "Update 0.1.4"
 
-git tag -fa $VERSION -m "Update release notes"
+git tag -fa $VERSION -m "Update 0.1.4"
 
 git push origin :$VERSION
 
