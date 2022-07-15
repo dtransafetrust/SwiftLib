@@ -7,15 +7,13 @@
 
 VERSION="0.1.3"
 
-value=`cat release.yml`
-
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 git add .
 
 git commit -m "Update release notes"
 
-git tag -fa $VERSION -m $value
+git tag -fa $VERSION -m "Update release notes"
 
 git push origin :$VERSION
 
