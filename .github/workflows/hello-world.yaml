@@ -1,7 +1,7 @@
 name: Hello World
 on:
   push:
-    branches: [master]
+    branches: [auto_release_note]
 jobs:
   say-hello:
     runs-on: unbutu-latest
