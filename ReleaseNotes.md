@@ -1,5 +1,9 @@
 # Release Notes
 
+## [0.0.4]
+
+- Create a new action secret.
+
 ## [0.0.2]
 
 - Support instance alive when app is not running.
