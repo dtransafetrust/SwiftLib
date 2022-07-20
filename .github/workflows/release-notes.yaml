@@ -3,6 +3,7 @@ name: Deploy and create release notes
 on:
   push:
     tags:
+      - v0.0.1
       - v0.0.2
 
 jobs:
