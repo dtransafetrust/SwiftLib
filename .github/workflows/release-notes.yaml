@@ -1,18 +1,43 @@
 name: Generate release notes flow
 on:
-  milestone:
-    types: [closed]
   push:
     tags:
       - v0.0.1
 
-jobs:
-  create-release-notes:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@master
-    - name: Create Release Notes
-      uses: docker://decathlon/release-notes-generator-action:2.0.1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        FILENAME: ProvidedFilename
+# jobs:
+#   changelog:
+#     exclude:
+#       labels:
+#         - ignore-for-release
+#       authors:
+#         - octocat
+#     categories:
+#       - title: Breaking Changes 🛠
+#         labels:
+#           - Semver-Major
+#           - breaking-change
+#       - title: Exciting New Features 🎉
+#         labels:
+#           - Semver-Minor
+#           - enhancement
+#       - title: Other Changes
+#         labels:
+#           - "*"
+changelog:
+  exclude:
+    labels:
+      - ignore-for-release
+    authors:
+      - octocat
+  categories:
+    - title: Breaking Changes 🛠
+      labels:
+        - Semver-Major
+        - breaking-change
+    - title: Exciting New Features 🎉
+      labels:
+        - Semver-Minor
+        - enhancement
+    - title: Other Changes
+      labels:
+        - "*"
