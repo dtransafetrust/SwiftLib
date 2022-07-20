@@ -2,6 +2,9 @@ name: Hello World
 on:
   push:
     branches: [master]
+  pull_request:
+    type: [opened, reopened, synchronize]
+    
 jobs:
   say-hello:
     runs-on: ubuntu-latest
