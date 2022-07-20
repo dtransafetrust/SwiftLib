@@ -5,8 +5,6 @@
 # Proprietary and confidential
 #
 
-VERSION="v0.0.2"
-
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 cd $DIR
