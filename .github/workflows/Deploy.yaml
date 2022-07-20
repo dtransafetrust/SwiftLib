@@ -15,9 +15,9 @@ jobs:
 
       - name: Remove previous release
         uses: cb80/delrel@latest
-          with:
-            tag: ${{ github.ref }}
-            token: ${{ secrets.MY_TOKEN }}
+        with:
+          tag: ${{ github.ref }}
+          token: ${{ secrets.MY_TOKEN }}
 
       - name: Generate standard release note
         uses: yashanand1910/standard-release-notes@v1.2.1
