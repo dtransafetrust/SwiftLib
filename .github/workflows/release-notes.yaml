@@ -14,5 +14,4 @@ jobs:
         uses: yashanand1910/standard-release-notes@v1.2.1
         id: get_release_notes
         with:
-          changelog_path: ./CHANGELOG.md # Optional
-          version: v0.0.2 # Required
+          version: ${{ github.ref }} # Required
