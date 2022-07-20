@@ -7,17 +7,6 @@ on:
       - v0.0.2
 
 jobs:
-  # generate-release-notes:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/checkout@v2
-  #     - name: input
-  #       uses: yashanand1910/standard-release-notes@v1.2.1
-  #       id: get_release_notes
-  #       with:
-  #         changelog_path: ./CHANGELOG.md # Optional
-  #         version: ${{ github.ref }} # Required
-
   build:
     name: Create Release
     runs-on: ubuntu-latest
