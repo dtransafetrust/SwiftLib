@@ -3,11 +3,11 @@ name: Deploy
 on:
   push:
     tags:
-      - *
+      - v.*
 
 jobs:
   build:
-    key: ${{ runner.os }}-mycache-v1-0
+    key: ${{ runner.os }}-mycache-v1-1
     name: Create Release
     runs-on: ubuntu-latest
     steps:
