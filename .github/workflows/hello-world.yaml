@@ -4,6 +4,8 @@ on:
     branches: [master]
 jobs:
   say-hello:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
-      - run: echo Hello World
+      - name: Print Hello World
+        run: 
+          echo Hello World
