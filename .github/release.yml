@@ -16,3 +16,7 @@
 #     - title: Other Changes
 #       labels:
 #         - "*"
+changelog:
+  - title: Other Changes
+    labels:
+      - "*"
