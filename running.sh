@@ -11,7 +11,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 git add .
 
-git commit -m "Update $VERSION"
+git commit -m "Fix bug"
 
 git tag -fa $VERSION -m "Update $VERSION"
 
