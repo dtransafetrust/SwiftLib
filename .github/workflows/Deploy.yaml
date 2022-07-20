@@ -1,4 +1,4 @@
-name: Generate release notes and deploy
+name: Deploy
 
 on:
   push:
@@ -12,17 +12,19 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+
       - name: Generate standard release note
         uses: yashanand1910/standard-release-notes@v1.2.1
         id: get_release_notes
         with:
-          changelog_path: ./CHANGELOG.md # Optional
-          version: ${{ github.ref }} # Required
+          changelog_path: ./ReleaseNotes.md
+          version: ${{ github.ref }}
+
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}

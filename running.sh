@@ -9,14 +9,23 @@ VERSION="v0.0.2"
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-git add .
+cd $DIR
 
-git commit -m "Fix bug"
+# git add .
 
-git tag -fa $VERSION -m "Update $VERSION"
+# git commit -m "Fix bug"
 
-git push origin :$VERSION
+# git tag -fa $VERSION -m "Update $VERSION"
 
-git push origin $VERSION
+# git push origin :$VERSION
+
+# git push origin $VERSION
+
+if GIT_DIR=/path/to/repo/.git git rev-parse $VERSION >/dev/null 2>&1
+then
+    echo "Found tag"
+else
+    echo "Tag not found"
+fi
 
 # git push origin master
