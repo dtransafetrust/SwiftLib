@@ -1,0 +1,9 @@
+name: Hello World
+on:
+  push:
+    branches: [master]
+jobs:
+  say-hello:
+    runs-on: unbutu-latest
+    steps:
+      - run: echo Hello World
