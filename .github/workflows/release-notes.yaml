@@ -17,4 +17,6 @@ jobs:
           changelog_path: ./CHANGELOG.md # Optional
           version: ${{ github.ref }} # Required
       - name: output
-        release_notes: ${{ github.ref }}
+        uses: yashanand1910/standard-release-notes@v1.2.1
+        with:
+          release_notes: ${{ github.ref }}
