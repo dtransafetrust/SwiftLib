@@ -1,13 +1,8 @@
 # Changelog
 
-### [0.0.2](https://github.com/dtransafetrust/SwiftLib/compare/v0.0.2...v0.0.2)
+### [0.0.2](https://github.com/dtransafetrust/SwiftLib/compare/v0.0.2...v0.0.2) (2020-10-21)
+
 
 ### Bug Fixes
 
-Fix minor bugs
-
-### [0.0.1](https://github.com/dtransafetrust/SwiftLib/compare/v0.0.1...v0.0.1)
-
-### Features
-
-Setup new code
+* output id for release_notes
