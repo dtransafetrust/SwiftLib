@@ -15,6 +15,6 @@ if git rev-parse "$TAG_VERSION" >/dev/null 2>&1; then
     git push origin $TAG_VERSION
 
 else
-    git tag $TAG_VERSION
+    git tag -a $TAG_VERSION $COMMIT_ID -m ""
     git push origin $TAG_VERSION
 fi
