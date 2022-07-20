@@ -3,7 +3,7 @@
 ## [0.0.2]
 
 - Support instance alive when app is not running
-- Other bug fixes
+- Other bug fixes.
 
 ## [0.0.1]
 
