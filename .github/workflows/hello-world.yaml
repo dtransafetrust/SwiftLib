@@ -4,6 +4,6 @@ on:
     branches: [auto_release_note]
 jobs:
   say-hello:
-    runs-on: unbutu-latest
+    runs-on: ubutu-latest
     steps:
       - run: echo Hello World
