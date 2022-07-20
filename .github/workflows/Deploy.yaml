@@ -13,16 +13,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Remove previous release
-        uses: cb80/delrel@latest
-        with:
-          tag: ${{ github.ref }}
-          token: ${{ secrets.PATNAME }}
+      # - name: Remove previous release
+      #   uses: cb80/delrel@latest
+      #   with:
+      #     tag: ${{ github.ref }}
+      #     token: ${{ secrets.DANH_KEY }}
 
-      - name: Delete drafts
-        uses: hugo19941994/delete-draft-releases@v1.0.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.PATNAME }}
+      # - name: Delete drafts
+      #   uses: hugo19941994/delete-draft-releases@v1.0.0
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.DANH_KEY }}
 
       - name: Generate standard release note
         uses: yashanand1910/standard-release-notes@v1.2.1
@@ -35,7 +35,7 @@ jobs:
         id: create_release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.PATNAME }}
+          GITHUB_TOKEN: ${{ secrets.DANH_KEY }}
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
