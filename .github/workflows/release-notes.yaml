@@ -4,7 +4,6 @@ on:
   push:
     tags:
       - v0.0.1
-      - v0.0.2
 
 jobs:
   generate-release-notes:
@@ -17,7 +16,3 @@ jobs:
         with:
           changelog_path: ./CHANGELOG.md # Optional
           version: ${{ github.ref }} # Required
-      - name: output
-        uses: yashanand1910/standard-release-notes@v1.2.1
-        with:
-          release_notes: ${{ github.ref }}
