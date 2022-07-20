@@ -15,4 +15,4 @@ jobs:
         id: get_release_notes
         with:
           changelog_path: ./CHANGELOG.md # Optional
-          version: ${{ github.ref }} # Required
+          version: v0.0.2 # Required
