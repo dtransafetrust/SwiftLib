@@ -13,23 +13,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - uses: actions/cache@v3
-        with:
-          path: |
-            path/to/dependencies
-            some/other/dependencies
-          key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
-
       - name: Remove previous release
         uses: cb80/delrel@latest
         with:
           tag: ${{ github.ref }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PATNAME }}
 
       - name: Delete drafts
         uses: hugo19941994/delete-draft-releases@v1.0.0
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PATNAME }}
 
       - name: Generate standard release note
         uses: yashanand1910/standard-release-notes@v1.2.1
@@ -42,7 +35,7 @@ jobs:
         id: create_release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PATNAME }}
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
