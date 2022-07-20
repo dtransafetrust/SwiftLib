@@ -1,5 +1,7 @@
 name: Generate release notes flow
 on:
+  milestone:
+    types: [closed]
   push:
     tags:
       - v0.0.1
