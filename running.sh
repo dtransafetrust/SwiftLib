@@ -5,13 +5,15 @@
 # Proprietary and confidential
 #
 
-VERSION="v0.0.1"
+VERSION="v0.0.2"
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
+cd $DIR
+
 git add .
 
-git commit -m "Update $VERSION"
+git commit -m "Fix bug"
 
 git tag -fa $VERSION -m "Update $VERSION"
 
