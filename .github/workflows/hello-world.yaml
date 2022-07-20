@@ -1,7 +1,7 @@
 name: Hello World
 on:
   push:
-    branches: [auto_release_note]
+    branches: [master]
 jobs:
   say-hello:
     runs-on: self-hosted
