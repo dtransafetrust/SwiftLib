@@ -1,0 +1,324 @@
+//
+// Copyright (c) Safetrust, Inc. - All Rights Reserved
+// Unauthorized copying of this file, via any medium is strictly prohibited
+// Proprietary and confidential
+//
+
+// Onboarding screen
+"ONBOARDING_TITLE_1" = "Streamline Your Access Experience";
+"ONBOARDING_DESCRIPTION_1" = "Enjoy touchless access to your facilities using your mobile device";
+"ONBOARDING_TITLE_2" = "Stay Safe with Contact Tracing";
+"ONBOARDING_DESCRIPTION_2" = "Utilize contact tracing technology and proximity records to keep your safe";
+"ONBOARDING_SKIP_BUTTON" = "LET'S GO";
+
+// Login screen
+"LOGIN_TITLE" = "Login";
+"LOGIN_DESCRIPTION" = "Enter your email or mobile number";
+"LOGIN_ENTER_PASSWORD" = "Enter your password";
+"LOGIN_ENTER_OTP" = "Enter your SMS code";
+"LOGIN_REQUEST_NEW_CODE" = "I didn't receive a code";
+"LOGIN_MAKE_CALL" = "Call Me";
+"LOGIN_RESEND_SMS" = "Resend OTP";
+"LOGIN_RESEND_ACTIVATION_CODE" = "Resend Code";
+
+// Active device screen
+"ACTIVE_DEVICE_TITLE" = "Activate Device";
+"ACTIVE_DEVICE_DESCRIPTION" = "Input to activate your device";
+
+// Register screen
+"REGISTER_DESCRIPTION" = "Let's start with some personal details";
+"REGISTER_ENTER_EMAIL_PHONE" = "Enter your email or phone";
+"REGISTER_ENTER_FIRST_NAME" = "Enter your first name";
+"REGISTER_ENTER_LAST_NAME" = "Enter your last name";
+
+// Confirm your details screen
+"CONFIRM_YOUR_DETAILS_TITLE" = "Confirm your details";
+"CONFIRM_YOUR_DETAILS_DESCRIPTION" = "Please ensure that the information below is correct";
+
+// Policy screen
+"POLICY_TITLE" = "Privacy Policy";
+"POLICY_DESCRIPTION" = "Please read and click I accept to proceed";
+
+// Country code screen
+"COUNTRY_CODE_TITLE" = "Country code";
+"COUNTRY_CODE_DESCRIPTION" = "Please select a country";
+
+// Active screen
+"ACTIVE_TITLE" = "Almost done!";
+"ACTIVE_DESCRIPTION" = "Please verify it's you";
+"ACTIVE_MESSAGE_INPUT_DIGIT_CODE" = "Enter the 6 digit code that we've sent to";
+
+// Setup password screen
+"SETUP_PASSWORD_TITLE" = "Set a password";
+"SETUP_PASSWORD_DESCRIPTION" = "Nearly there. Please set a password for your account";
+
+// Organization list screen
+"ORGANIZATION_TITLE" = "Select Organization(s)";
+"ORGANIZATION_DESCRIPTION" = "Select one organization";
+
+// Change password screen
+"CHANGE_PASSWORD_TITLE" = "Change Password";
+"CHANGE_PASSWORD_DESCRIPTION" = "Input to change your password";
+"CHANGE_PASSWORD_MESSAGE_SUCCESSFULLY" = "Change password successfully";
+"CHANGE_PASSWORD_FAILED" = "Setup Password failed. Please contact your Admin for getting more support.";
+
+// Password lock screen
+"PASSCODE_LOCK_ENTER_TITLE" = "Please unlock your app";
+"PASSCODE_LOCK_ENTER_DESCRIPTION" = "";
+"PASSCODE_LOCK_ENTER_OPEN_DOOR_TITLE" = "Please input to open door";
+"PASSCODE_LOCK_ENTER_OPEN_DOOR_DESCRIPTION" = "";
+"PASSCODE_LOCK_SET_TITLE" = "Enter New Passcode";
+"PASSCODE_LOCK_SET_DESCRIPTION" = "";
+"PASSCODE_LOCK_CONFIRM_TITLE" = "Re-enter passcode";
+"PASSCODE_LOCK_CONFIRM_DESCRIPTION" = "";
+"PASSCODE_LOCK_CHANGE_TITLE" = "Enter Current Passcode";
+"PASSCODE_LOCK_CHANGE_DESCRIPTION" = "";
+"PASSCODE_LOCK_MISMATCH_TITLE" = "Try again";
+"PASSCODE_LOCK_MISMATCH_DESCRIPTION" = "";
+"PASSCODE_LOCK_REMOVE_TITLE" = "Remove Passcode";
+"PASSCODE_LOCK_HIDE_TITLE" = "Verify Passcode";
+"PASSCODE_LOCK_BUTTON_CANCEL" = "Cancel";
+"PASSCODE_LOCK_BUTTON_DELETE" = "Delete";
+"PASSCODE_LOCK_TOUCH_ID_REASON" = "Authentication required to proceed";
+"PASSCODE_LOCK_BUTTON_TOUCH_ID" = "Enter Passcode";
+
+// Setting screen
+"SETTING_TITLE" = "Settings";
+"LEASING_ENABLE" = "Leashing";
+"LEASING_DISABLE" = "Leashing (Support when enable bluetooth)";
+"ACCESS_FEEDBACK" = "Access Feedback";
+"ANTI_PASSBACK" = "Anti-Passback";
+"ANTI_PASSBACK_LIST_EMPTY" = "Anti-Passback List is empty";
+"APP_PASSCODE" = "App Passcode";
+"AUTO_START" = "Auto Start";
+"BEACON_STATE" = "Request Location service is 'Always'.";
+"ACCESS_SECTION_TITLE" = "ACCESS SETTINGS";
+"SECURITY_SECTION_TITLE" = "APPLICATION SECURITY";
+"PASSCODE_ENABLE" = "Passcode Enable";
+"PASSCODE_TIMEOUT" = "Passcode Timeout";
+"PASSCODE_CHANGE" = "Change Application Passcode";
+
+// About screen
+"ABOUT_TITLE" = "About";
+"APPLICATION_SECTION_TITLE" = "APPLICATION INFORMATION";
+"ABOUT_OVERVIEW" = "Overview";
+"ABOUT_VERSION" = "Version";
+"ABOUT_CONTACT_SUPPORT" = "Contact Support";
+"ABOUT_DEVICE_INFORMATION" = "Device Information";
+"ABOUT_LICENSE_AGREEMENT" = "License Agreement";
+
+// Device Info screen
+"DEVICE_INFO_TITLE" = "Device Information";
+"DEVICE_INFO_PACKAGE_NAME" = "Package Name";
+"DEVICE_INFO_BUILD_VERSION" = "Build Version";
+"DEVICE_INFO_BUILD_NUMBER" = "Build Number";
+"DEVICE_INFO_UDID" = "UDID";
+"DEVICE_INFO_ACCOUNTS" = "Accounts";
+"DEVICE_INFO_ACTIVE_USER" = "Active User";
+"DEVICE_INFO_HARDWARE" = "Hardware";
+"DEVICE_INFO_DEVICE_NAME" = "Device Name";
+"DEVICE_INFO_LOCALE" = "Locale";
+"DEVICE_INFO_MODEL" = "Model";
+"DEVICE_INFO_OS" = "OS";
+"DEVICE_SUBMIT_BUTTON" = "Email to Zerv";
+"DEVICE_EMAIL_SUBJECT" = "Zerv Device Information";
+
+// Passocde status screen
+"PASSCODE_STATUS_TITLE" = "Passcode Enable";
+"PASSCODE_STATUS_NONE" = "None";
+"PASSCODE_STATUS_ONLY_PASSCODE" = "Passcode";
+"PASSCODE_STATUS_PLUS_BIOMETRIC" = "Passcode or Biometric";
+
+// Passcode timeout screen
+"PASSCODE_TIMEOUT_TITLE" = "Passcode Timeout";
+"PASSCODE_TIMEOUT_IMMEDIATELY" = "Immediately";
+"PASSCODE_TIMEOUT_TIME_1" = "5 Min";
+"PASSCODE_TIMEOUT_TIME_2" = "10 Min";
+"PASSCODE_TIMEOUT_TIME_3" = "20 Min";
+
+// Change Passcode value screen
+"CHANGE_PASSCODE_TITLE" = "Change Passcode";
+
+"WALLET_TITLE" = "Wallet";
+"DB_TITLE" = "Manage Sensor";
+"LP_TITLE" = "History";
+"ABOUT_TITLE" = "About";
+"SIGN_OUT_TITLE" = "Sign Out";
+"START_SCANNING" = "Start Scanning";
+"STOP_SCANNING" = "Stop Scanning";
+"TITLE_ALERT_DIALOG" = "Alert";
+"TITLE_ERROR_DIALOG" = "Error";
+"TITLE_WARNING_DIALOG" = "Warning";
+"TITLE_CONFIRM_SEND_OTP_DIALOG" = "Verify phone number";
+"TITLE_SUCCESS_DIALOG" = "Success";
+"TITLE_INFO_DIALOG" = "Info";
+"CAPTCHA_TITLE" = "CAPTCHA verification";
+"HISTORY_TITLE" = "Event Logs";
+
+"SILENT" = "Silent";
+"VIBRATE" = "Vibrate";
+"BUZZER_VIB" = "Buzzer & Vibrate";
+"AT" = "at";
+"BY" = "By";
+"ACTION" = "Action";
+"STATUS" = "Status";
+"CHANGE_PASSBACK_MESSAGE" = "Change Anti-Passback";
+"CHANGE_PASSBACK_MESSAGE_PLACE_HOLDER" = "Input passback delay";
+"EMAIL_OR_PHONE" = "Email or Mobile";
+"HAVING_TROUBLE" = "Having trouble?";
+"CONTACT_US" = "Contact us, we're here 24/7";
+"LOGGING_IN_YOU_AGREE" = "By logging in you agree to the";
+"TERMS_OF_USE" = "Terms of Use";
+"INPUT_PASSCODE_MESSAGE" = "Input passcode";
+"PASSCODE_REQUIRE_MESSAGE" = "Unlock App";
+"FORGOT_PASSWORD" = "I forgot my password";
+"AUTO_AUTHEN" = "Auto-Authenticate";
+"WELCOME" = "Welcome";
+
+// Button
+"BUTTON_OK" = "Ok";
+"BUTTON_YES" = "Yes";
+"BUTTON_CANCEL" = "Cancel";
+"BUTTON_DONE" = "Done";
+"BUTTON_CHANGE" = "Change";
+"BUTTON_START_APP" = "Start App";
+"BUTTON_REGISTER_ACCOUNT" = "REGISTER ACCOUNT";
+"BUTTON_I_ACCEPT" = "I ACCEPT";
+"BUTTON_SUBMIT_ACTIVATION" = "LOGIN";
+"BUTTON_CONTINUE" = "Continue";
+"BUTTON_SETTINGS" = "Settings";
+"BUTTON_SIGN_OUT" = "Sign Out";
+
+// Common errors
+"ERROR_LOGOUT" = "You can not log out because the system has error";
+"ERROR_INPUT_ACTIVE_CODE" = "You need complete active codes";
+"RESOURCE_FILE_NOT_FOUND_IN_BUNDLE" = "Resource file is not found in the Bundle";
+"RESOURCE_FILE_NOT_FOUND" = "Resource file is not found";
+"ERROR_ACTIVATION_LINK_INVALID" = "Activation link invalid";
+"REQUEST_ERROR" = "Request Error";
+"TRUSTED_ISSUER" = "Trusted issuer mode";
+"ONLINE" = "Normal mode";
+"ERROR_SCANNING_NOT_STARTED" = "Scanning not started";
+"ERROR_AT_LEAST_6_CHARACTER" = "At least 6 characters";
+"ERROR_PIN_CODE_EMPTY" = "Pin code is required!";
+"ERROR_COUNTRY_CODE_EMPTY" = "Country code is required!";
+"ERROR_FIRST_NAME_EMPTY" = "First name is required!";
+"ERROR_LAST_NAME_EMPTY" = "Last name is required!";
+"ERROR_EMAIL_ADDRESS_INVALID" = "Invalid email Address";
+"ERROR_PHONE_NUMBER_INVALID" = "Enter valid phone number!";
+"ERROR_NOT_MATCH" = "Not Match";
+"ERROR_INIT_CODE_NOT_IMPLEMENTED" = "init(coder:) has not been implemented";
+"ERROR_UNHANDLE" = "Unknown error occurred. The request cannot be completed.";
+"ERROR_CONFIRM_PASSWORD_EMPTY" = "Confirm password value is empty!";
+"ERROR_MAIL_NOT_SEND" = "The app can not send email";
+"ERROR_ANT_PASS_BACK_INVALID" = "This is not a valid number input.";
+"ERROR_ORG_INVITED_FAILED" = "Accept org invitation Failed";
+
+// Error user
+"ERROR_USER_FAILED_TO_UPDATE_AVATAR" = "Avatar updating is failed";
+"ERROR_USER_ID_EMPTY" = "Can not load user info";
+
+// SWDKError
+"ERROR_TIMEOUT" = "Internet network timeout";
+"ACCOUNT_NOT_FOUND" = "Account not found";//7
+"PASSCODE_NEEDS_TO_BE_SET" = "Need Setup passcode";//11
+"ERROR_APP_NEEDS_TO_BE_INITIALIZED" = "App needs to be initialized";//12
+"UNKNOWN_SDK_UUID" = "SWDK UUID is not exist";//17
+"ERROR_NEED_TO_ACCEPT_LICENSE_AGREEMENT"  = "Can't use this credential unitl you accept the license agreement.";
+"TIMEOUT" = "Input passcode action is timeout";
+"SCANNING_NO_STARTED" = "Scanning did not be started";//21
+"ERROR_WRONG_OTP" = "SMS Code is not correct";//43
+"CONFIG_SERVER_API_ERROR" = "Internet Server Error. Please check internet network again.";//44
+"APP_VERSION_INVALID" = "This version of the App is not compatible with the host you selected. Please change the server URL to a compatible server.";//45
+"ERROR_CANNOT_RETREIVE_API_VERSION" = "App cannot retreive api version. Please check internet network again.";//46
+"ERROR_ACTIVATION_CODE_IS_INVALID" = "An invalid code has been provided";//47
+"ERROR_CREDENTIAL_CERTIFICATE_NOT_EFFECTIVE" = "Your credential is not available until";//48
+"ERROR_PASSCODE_NUMERIC_CHARACTER_INVALID" = "Password must contain number character!";//49
+"ERROR_PASSCODE_MIXED_CASE_INVALID" = "Password must contain lowercase and uppercase!";//50
+"ERROR_PASSCODE_SPECIAL_SYMBOL_INVALID" = "Password must contain special character!";//51
+"ERROR_PASSCODE_LENGTH_INVALID" = "Password length is not match!";//52
+"ERROR_PASSCODE_GENERAL_ERROR" = "Password does not match rules!";//53
+"ERROR_PASSCODE_EMPTY" = "Password value is empty!";//54
+"ERROR_PASSWORD_REPEAT" = "You have already used this password. Please try another.";//55
+"ERROR_PASSWORD_WRONG" = "Password value is wrong!";//56
+"ERROR_PASSCODE_CONTAINS_USERNAME" = "Password contain username.";//57
+"ERROR_PASSCODE_CONTAINS_KEYWORD" = "Password contain keyword.";//58
+"NETWORK_NOT_AVAILABLE" = "Cannot connect to the application service. Verify your internet connection and try again.";//59
+"CAPTCHA_EXPIRED" = "Captcha is expired.";//62
+"CAPTCHA_INVALID" = "Captcha is wrong.";//63
+"LOGIN_BLOCKED" = "Your account has been locked";//64
+"NEED_SETUP_PASSCODE" = "A Passcode is required to access this Credential";//65
+"NEED_REGISTER_SHOW_PASSCODE" = "You need register show passcode";//66
+"BIO_NOT_SUPPORT" = "Biometric is not supported";//67
+"ERROR_NEED_BLUETOOTH" = "Bluetooth must be Enabled on this device to allow the Safetrust Wallet to communicate with supported devices.";//68
+"NO_SENSOR_FOUND" = "This credential is not within range of a supported device";//69
+"ERROR_ACCESS_RULES_GEOFENCING" = "Unable to Access. Please check the Geofencing Rules";//70
+"ERROR_ACCESS_RULES_GEOFENCING_LOCATION" = "Unable to obtain current location to verify Geofencing Rules";//71
+"ERROR_ACCESS_RULES_GEOFENCING_LOCATION_FAKE" = "The current location is invalid. Unable to access Credential, as Geofencing Rules could not be verified";//72
+"LOGIN_USER_HAS_ARCHIVED" = "Your Account has been Archived. Please contact your Account Administrator";//73
+"ANTIPASSBACK_INVALID" = "An invalid anti passback has been provided";//74
+"INVALID_TOKEN" = "Your token has been changed. Please login again";//75
+"LOGIN_USER_NOT_FOUND" = "User not found";//76
+"ERROR_PASSWORD_HAS_EXPIRED" = "Software Update Failed";//77
+"USER_HAS_ARCHIVED" = "Person is archived.";//78
+"COMPANY_IS_DENIED" = "Your Account has been Disabled. Please contact your Account Administrator";//79
+"DEVICE_IS_LOGOUT" = "Device is logout";//80
+"TOKEN_LOGOUT" = "The app token has been terminated by security reason. You may need to login again for continue using.";
+"MIGRATE_FAILED" = "App migration failed";
+
+// Messeages
+"MESSAGE_RESEND_CODE_SUCCESS" = "New code is sent successfully";
+"MESSAGE_OPEN_DOOR_SUCCESSFULL" = "Open Successful";
+"MESSAGE_OPEN_DOOR_FAILED" = "Open Failed";
+"MESSAGE_CONNECTED_READER" = "You are connected to ";
+"MESSAGE_DISCONNECTED_READER" = "You have disconnected from ";
+"MESSAGE_DISCONNECTING_READER" = "Disconnecting";
+"MESSAGE_WARNING_DISCCONNECTED_READER" = "Are you sure you want to disconnect Safetrust Wallet from ";
+"MESSAGE_VALIDATE_USER_IDENTIFIER" = "The email or phone value is invalid!";
+"MESSAGE_VALIDATE_PASSWORD_CONFIRM_PASSWORD" = "Password value doesn't match!";
+"MESSAGE_PASSCODE_CHANGE_SUCCESSFULL" = "Change Passcode Successful";
+"MESSAGE_PASSCODE_CHANGE_INVALID" = "Passcode invalid";
+"MESSAGE_PASSCODE_WRONG_MANY_TIMES" = "Passcode wrong many times";
+"MESSAGE_PASSCODE_NOT_SAME" = "Passcode not same";
+"USERNAME_PASSWORD_INVALID_MESSAGE" = "Username or Password invalid";
+"MESSAGE_SIGN_OUT" = "Are you sure you want to sign out?";
+"MESSAGE_SELECT_ORGANIZATION" = "Please select at least one Organization";
+"MESSAGE_SELECT_TRUSTED_ISSUER" = "Select Mode";
+"MESSAGE_SELECT_PENDING_ORG" = "To join this org, you must accept the invitation. Do you want to accept?";
+"MESSAGE_SELECT_ORG_HAS_LIMIT_DEVICE" = "Login is denied. Your account already reached maximum number of devices.";
+"MESSAGE_EXPORT_CREDENTIAL" = "Export Credential Result : ";
+"MESSAGE_CREDENTIAL_NEVER_EXPIRED" = "Never";
+"MESSAGE_CREDENTIAL_ACTIVATED" = "Activated";
+"MESSAGE_CONFIRM_SEND_OTP" = "We'll text a code to verify your mobile:";
+"MESSAGE_CONFIRM_SEND_OTP_TAIL" = "Standard SMS fee may apply";
+"MESSAGE_CONFIRM_RESET_PASSWORD" = "Do you want to reset password?";
+"MESSAGE_RESET_PASSWORD_SUCCESS" = "A Temporary Password has been sent to your registered email address. Please use this Password to complete the reset process";
+"MESSAGE_CONFIRM_CHANGE_PASSWORD" = "We'll change your current password";
+"MESSAGE_START_TIME" = "NOT AVAILABLE \n Until";
+"MESSAGE_END_TIME" = "Expired";
+"MESSAGE_LICENSE_AGREEMENT" = "Accept to use";
+"MESSAGE_ENTER_CAPTCHA" = "Enter captcha code";
+"MESSAGE_EMTPY_CREDENTIAL" = "There are currently no credentials assigned to your account. To start using the Zerv, please contact your administrator to request your first credential.";
+"MESSAGE_PASSCODE_WARNING" = "Pass has failed {PASSCODE_COUNT} time(s). All application data will be erased after 10 failed passcode attempts.";
+"MESSAGE_PASSCODE_ERASE_ALL_DATA" = "10 failed passcode attempts. All application data will be erased.";
+
+// Result credential
+"RESULT_CREDENTIAL_FAILED" = "An action for credential is failed";
+
+// Steps
+"STEP_1_OF_2" = "Step 1 of 2";
+"STEP_2_OF_2" = "Step 2 of 2";
+"STEP_1_OF_4" = "Step 1 of 4";
+"STEP_2_OF_4" = "Step 2 of 4";
+"STEP_3_OF_4" = "Step 3 of 4";
+"STEP_4_OF_4" = "Step 4 of 4";
+
+
+// call Status
+"LOGIN_MAKE_CALL_ANSWERING" = "Answering...";
+"LOGIN_MAKE_CALL_CALLING" = "Prepare Dial";
+"LOGIN_MAKE_CALL_RINGING" = "Ringing...";
+"LOGIN_MAKE_CALL_BUSY" = "Phone Busy!";
+"LOGIN_MAKE_CALL_FAILED" = "Failed Contact!";
+"LOGIN_MAKE_CALL_NO_ANSWER" = "No Answer!";
+"LOGIN_MAKE_CALL_DECLINED_ANSWER" = "Declined Answer!";

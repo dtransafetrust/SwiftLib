@@ -10,7 +10,7 @@ TAG_VERSION="v$1"
 COMMIT_ID="$2"
 REPO_NAME=SwiftLib
 REPO_OWNER=dtransafetrust
-GITHUB_ACCESS_TOKEN=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
+GITHUB_ACCESS_TOKEN=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
 
 git tag -d $TAG_VERSION
 git tag -a $TAG_VERSION $COMMIT_ID -m ""
