@@ -8,6 +8,9 @@
 RELEASE_VERSION="$1"
 TAG_VERSION="v$1"
 COMMIT_ID="$2"
+REPO_NAME=SwiftLib
+REPO_OWNER=dtransafetrust
+GITHUB_ACCESS_TOKEN=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
 
 git tag -d $TAG_VERSION
 git tag -a $TAG_VERSION $COMMIT_ID -m ""
@@ -32,4 +35,4 @@ while read line; do
 
 done < $filename
 
-bash git-release.sh -v $RELEASE_VERSION -m "$message" -b master
+bash git-release.sh $RELEASE_VERSION "master" "$message" $REPO_NAME $REPO_OWNER $GITHUB_ACCESS_TOKEN

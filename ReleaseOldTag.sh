@@ -5,10 +5,6 @@
 # Proprietary and confidential
 #
 
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-
-cd $DIR
-
 ./ReleaseWithTag.sh 0.0.1 27cbaf8
 sleep 3
 
