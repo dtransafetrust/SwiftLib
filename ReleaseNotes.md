@@ -1,5 +1,9 @@
 # Release Notes
 
+## [0.0.6]
+
+- Add script to push release to github.
+
 ## [0.0.4]
 
 - Create a new action secret.
