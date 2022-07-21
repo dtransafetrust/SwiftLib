@@ -5,7 +5,7 @@ VERSION="0.0.1"
 DRAFT="false"
 PRE="false"
 BRANCH="master"
-GITHUB_ACCESS_TOKEN="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"
+GITHUB_ACCESS_TOKEN="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"
 
 # get repon name and owner
 REPO_REMOTE=$(git config --get remote.origin.url)
