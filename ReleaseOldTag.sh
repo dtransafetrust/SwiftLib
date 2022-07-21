@@ -9,6 +9,10 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 cd $DIR
 
-./ReleaseWithTag.sh v0.0.4 019326a
-./ReleaseWithTag.sh v0.0.2 2c29f59
-./ReleaseWithTag.sh v0.0.1 27cbaf8
+./ReleaseWithTag.sh 0.0.1 27cbaf8
+sleep 3
+
+./ReleaseWithTag.sh 0.0.2 2c29f59
+sleep 3
+
+./ReleaseWithTag.sh 0.0.4 019326a

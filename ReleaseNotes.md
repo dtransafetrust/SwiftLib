@@ -13,3 +13,4 @@
 
 - Latest XCode and Swift 5.4 support
 - Fix Lint building error for Android.
+

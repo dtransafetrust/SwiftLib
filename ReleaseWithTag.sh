@@ -5,16 +5,31 @@
 # Proprietary and confidential
 #
 
-TAG_VERSION="$1"
+RELEASE_VERSION="$1"
+TAG_VERSION="v$1"
 COMMIT_ID="$2"
 
-if git rev-parse "$TAG_VERSION" >/dev/null 2>&1; then
-    git tag -d $TAG_VERSION
-    git tag -a $TAG_VERSION $COMMIT_ID -m ""
-    git push origin :$TAG_VERSION
-    git push origin $TAG_VERSION
+git tag -d $TAG_VERSION
+git tag -a $TAG_VERSION $COMMIT_ID -m ""
+git push origin :$TAG_VERSION
+git push origin $TAG_VERSION
 
-else
-    git tag -a $TAG_VERSION $COMMIT_ID -m ""
-    git push origin $TAG_VERSION
-fi
+filename="ReleaseNotes.md"
+isCopying=false
+message=""
+
+while read line; do
+    if [[ $line == *"## [$RELEASE_VERSION]"* ]]; then
+        isCopying=true
+
+    elif [[ $line == *"## ["* ]]; then
+        isCopying=false
+    fi
+
+    if [[ $isCopying == true && $line != *"## ["* ]];then
+        message="$message\n$line"
+    fi
+
+done < $filename
+
+bash git-release.sh -v $RELEASE_VERSION -m "$message" -b master
